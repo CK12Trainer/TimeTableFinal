@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<title>My School TimeTable</title>
+<style>
+table {
+  background-color:#F9DB91;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #B3D8FA;
+  text-align: center;
+  padding: 8px;
+}
+
+th{
+  font-size: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #B3D8FA;
+}
+</style>
+</head>
+<body style="font-family: Verdana; color:#494443; background-color:#F1E7E5;">
+
+<h1 style="text-align: center;">My School TimeTable</h1>
+<!-- Teach how to use link directly from net, as well as from local storage -->
+<img id="logo" src="School logo.png" alt="school logo">
+
+<table>
+  <tr>
+    <th>Day/Time</th>
+    <th>9:00 AM - 9:45 AM</th>
+    <th>9:45 AM - 10:30 AM</th>
+    <th>10:30 AM - 10:45 AM</th>
+    <th>10:45 AM - 11:15 AM</th>
+    <th>11:15 AM - 12:30 PM</th>
+    <th>12:30 PM - 1:30 PM</th>
+    <th>1:30 PM - 2:15 PM</th>
+    <th>2:15 PM - 3:00 PM</th>
+  </tr>
+  <tr>
+    <td class="day">Monday</td>
+    <td>Maths</td>
+    <td>English</td>
+	  <td rowspan="8">Short Break</td>
+	  <td>History</td>
+	  <td>Music</td>
+	  <td rowspan="8">Lunch</td>
+	  <td>Physics</td>
+	  <td>Hindi</td>
+  </tr>
+  <tr>
+    <td class="day">Tuesday</td>
+	  <td colspan="2">Geography</td>
+	  <td>Biology</td>
+	  <td>Dance</td>
+	  <td>Maths</td>
+	  <td>History</td>
+  </tr>
+  <tr>
+    <td class="day">Wednesday</td>
+	  <td>Maths</td>
+    <td>English</td>
+	  <td>History</td>
+	  <td>Music</td>
+	  <td>Physics</td>
+	  <td>Hindi</td>
+  </tr>
+  <tr>
+    <td class="day">Thursday</td>
+	  <td>Chemistry</td>
+	  <td>Biology</td>
+	  <td>Dance</td>
+  	<td>Geography</td>
+	  <td>Maths</td>
+  	<td>History</td>
+  </tr>
+  <tr>
+    <td class="day">Friday</td>
+	  <td>Music</td>
+	  <td>Physics</td>
+	  <td colspan="2">Maths</td>
+    <td>English</td>
+	  <td>History</td>
+  </tr>
+  <tr>
+    <td class="day">Saturday</td>
+	  <td>Geography</td>
+	  <td>Dance</td>
+	  <td>Maths</td>
+	  <td>Chemistry</td>
+	  <td colspan="2">Biology</td>
+  </tr>
+</table>
+
+<h2>Teacher Name</h2>
+
+<ol>
+  <li>Maths - Teacher Name</li>
+  <li>English - Teacher Name</li>
+  <li>Hindi - Teacher Name</li>
+  <li>History - Teacher Name</li>
+  <li>Geography - Teacher Name</li>
+  <li>Physics - Teacher Name</li>
+  <li>Chemistry - Teacher Name</li>
+  <li>Biology - Teacher Name</li>
+  <li>Music - Teacher Name</li>
+  <li>Dance - Teacher Name</li>
+</ol>
+
+<h2>Your Favorite Friend List</h2>
+
+<ul>
+  <li>Friend 1</li>
+  <li>Friend 2</li>
+  <li>Friend 3</li>
+</ul>
+
+<h2>One line about your favorite teacher</h2>
+
+<dl>
+  <dt>Teacher 1</dt>
+  <dd>About Teacher 1</dd>
+  <dt>Teacher 2</dt>
+  <dd>About Teacher 2</dd>
+</dl>
+
+</body>
+</html>
