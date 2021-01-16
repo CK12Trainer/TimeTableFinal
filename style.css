@@ -1,0 +1,39 @@
+
+
+.day{
+  font-style: oblique;
+	font-weight: 1000;
+
+}
+
+#logo{
+	width:100px;
+	height:90px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-bottom: 15px;
+}
+
+img:hover{
+	 transform: rotateY(130deg);
+}
+
+td:hover{
+	/* Teach comment in CSS */
+	/*Teach all ways of giving colors, Ex: red, rgb(255,0,0), #ff0000 */
+	background-color: #900C3F;
+	color: rgb(249, 247, 241);
+	box-shadow: 0 5px #666; /* Gives shadow */
+	transform: translateY(4px); /* Teach, X, Y axis. translateY Moves upward, ask to try translateX and negative values too*/
+}
+
+h1 {
+  text-decoration: underline overline dotted grey;
+	color: #900C3F;
+}
+
+h2{
+	text-decoration: underline;
+	color: #900C3F;
+}
